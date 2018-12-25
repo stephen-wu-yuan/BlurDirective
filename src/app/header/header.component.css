@@ -1,0 +1,20 @@
+.root-ly {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.img-container {
+    width: 300px;
+    height: 300px;
+}
+
+.text-cs {
+    margin-top: 20px;
+    font-size: 25px;
+    color: blue;
+}

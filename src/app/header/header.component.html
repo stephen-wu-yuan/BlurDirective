@@ -1,0 +1,9 @@
+<div class="root-ly">
+
+    <div class="img-container">
+        <img [appBlur]='mBlurValue' src="/assets/download.jpeg" alt="">
+    </div>
+
+    <app-progress (blurChange)="setBlurVlue($event)"></app-progress>
+    <div class="text-cs">blur value: {{mBlurValue}}</div>
+</div>
